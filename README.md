@@ -1,6 +1,5 @@
 # [23.05] 패스트캠퍼스 강의 결제데이터 분석
 
-![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled.png)
 
 - 프로젝트 목표
     
@@ -42,7 +41,8 @@
         - 이외 인터뷰에서도 최신 트렌드에 맞게 이미 런칭한 강의도 2년 주기로 업데이트 해야한다는 원칙을 가지고 있음.
 - 카테고리별 결제 빈도와 결제 기준, 최근 6개월 사이 카테고리명과 동일한 뉴스 헤드라인 상관관계 분석
     
-    ![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled%201.png)
+    ![Untitled](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/647e6609-ed12-46d3-ba18-484c3a90f9ba![image](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/2ddfac0b-cb1a-4947-8134-89d89f0e2f8f)
+)
     
     - 상관관계를 명확히 파악했으나 이를 통해 발생한 액션이 떠오르지 않음.
     - 액션이 없으면 협업에서 필요한 인사이트가 아니라고 판단하여 몇 가지 기준을 갖고 다시 프로젝트 시작
@@ -65,7 +65,8 @@
 
 - 전체 데이터 정보
 
-![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled%202.png)
+![Untitled](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/7e29e39b-a67e-4199-acf7-cd6c530926fe![image](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/b2990e95-75f2-4e88-b4bc-1fd764863ea8)
+)
 
 - 데이터 내에서 활용할만한 데이터(Feature selection)
     
@@ -90,20 +91,24 @@
 
 - 3번이상 결제한 고객이 생각보다는 많이 있었고, 해당 인원이 적지만 총 판매금액의 많은부분을 담당하고 있음.
 
-![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled%203.png)
+![Untitled](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/65995e32-f08c-49d5-acac-a9b656bd2921![image](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/e1390d65-ac0e-45a2-8b65-060deb8c86dd)
+)
 
-![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled%204.png)
+![Untitled](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/4860578c-a8d8-431c-8388-d004d66c3ba7![image](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/c64d55a4-e787-40e6-bc5d-54db6953050e)
+)
 
 - 3번이상 결제 고객을 `‘파워유저’`로 규정하고, 해당 고객이 가지고 있는 특징을 활용해 `‘파워유저’`될 가능성을 높이는 액션을 제안하고자 함.
     
-    ![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled%205.png)
+    ![Untitled](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/453bbe4f-1ea0-481f-bea7-ac4771c21c35![image](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/93d5a155-3f5a-4dab-aa42-ebfdc1ebc73e)
+)
     
 
 ### 4. 분석
 
 - 첫번째 결제와 두번째 결제를 카테고리로 분석해서 해당 타겟의 쿠폰발급 등을 가설로 세웠으나 유의미한 상관관계가 없었음.
     
-    ![Untitled](%5B23%2005%5D%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A6%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%20ab538a0c49a544c9b3ace5ae359324eb/Untitled%206.png)
+    ![Untitled](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/dc779507-5c9b-49da-a0b9-f8ee4b95eb6c![image](https://github.com/jun-suk/PJT_fastcampus_order/assets/73885257/250a5357-c9c8-4658-8c1f-fb9e99af4178)
+)
     
 - 2번만 구매한 고객 vs `파워유저(3번이상 결제)`한 고객의 첫번째, 두번째 구매 간 간격을 분석해보았더니 유의미하게 파워유저의 간격이 짧았음.
 - 해당 데이터를 효과적으로 보기위해 확률밀도함수(PDF) 및 정규분포를 통해 시각화 해봄.
